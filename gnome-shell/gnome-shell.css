@@ -2982,7 +2982,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #lockDialogGroup {
-  background: #333333 url("assets/background.png");
+  background: #333333 url("assets/lock.png");
   background-size: cover;
 }
 

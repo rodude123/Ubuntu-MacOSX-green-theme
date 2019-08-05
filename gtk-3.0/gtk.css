@@ -586,7 +586,7 @@ button:active, button:checked {
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
   background-clip: padding-box;
   transition-duration: 200ms;
 }
@@ -597,7 +597,7 @@ button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label
 }
 
 button:checked:hover {
-  background-image: linear-gradient(0deg, #365cca 0%, #a0ca36 100%);
+  background-image: linear-gradient(0deg, #98c936 0%, #a0ca36 100%);
 }
 
 button:active {
@@ -1428,7 +1428,7 @@ combobox arrow {
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
   -gtk-icon-source: -gtk-scaled(url("assets/combobox-arrow.png"), url("assets/combobox-arrow@2.png"));
   min-height: 16px;
   min-width: 16px;
@@ -3191,7 +3191,8 @@ scrollbar slider {
 }
 
 scrollbar slider:hover {
-  background-color: #666666;
+  /*background-color: #666666;*/
+  background-color: #AAD400;
 }
 
 scrollbar slider:hover:active {
@@ -4581,7 +4582,7 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -6766,7 +6767,8 @@ window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem >
 window.solid-csd > box.vertical > box.vertical > .horizontal.inline-toolbar > toolitem > box.horizontal > button:checked {
   background-image: none;
   color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.25);
+  /*background-color: rgba(255, 255, 255, 0.25);*/
+  background-color: #AAD400;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -8166,7 +8168,7 @@ button.-panel-icon-button.budgie-menu-launcher:checked {
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
 }
 
 .menubar.panel popover .linked > button:disabled {
@@ -8922,7 +8924,7 @@ GtkListBox .h4 {
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
 }
 
 #content_frame button:disabled {
@@ -9365,7 +9367,7 @@ filechooser actionbar button:active, filechooser actionbar button:checked {
   border-color: rgba(0, 0, 0, 0.15);
   border-top-color: rgba(0, 0, 0, 0.15);
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(0deg, #3861ca 0%, #3d6be3 100%);
+  background-image: linear-gradient(0deg, #9cca38 0%, #a6e33d 100%);
 }
 
 filechooser actionbar button:disabled {
